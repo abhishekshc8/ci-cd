@@ -8,7 +8,7 @@ pipeline {
         }
         stage(test){
             steps{
-                echo "My Name is Abhishek" >> 1006.txt
+                echo "My Name is Abhishek"
             }
         }
         stage(build){
